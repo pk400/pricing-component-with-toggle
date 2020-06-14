@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Basic",
+    "recommended": false,
+    "prices": {
+      "unit": "$",
+      "monthly" : "19.99",
+      "annually": "199.99"
+    },
+    "storage": {
+      "size": 500,
+      "unit": "GB"
+    },
+    "users_allowed": 2,
+    "max_upload": {
+      "size": 3,
+      "unit": "GB"
+    }
+  },
+  {
+    "name": "Professional",
+    "recommended": true,
+    "prices": {
+      "unit": "$",
+      "monthly" : "24.99",
+      "annually": "249.99"
+    },
+    "storage": {
+      "size": 1,
+      "unit": "TB"
+    },
+    "users_allowed": 5,
+    "max_upload": {
+      "size": 10,
+      "unit": "GB"
+    }
+  },
+  {
+    "name": "Master",
+    "recommended": false,
+    "prices": {
+      "unit": "$",
+      "monthly" : "39.99",
+      "annually": "399.99"
+    },
+    "storage": {
+      "size": 2,
+      "unit": "TB"
+    },
+    "users_allowed": 10,
+    "max_upload": {
+      "size": 20,
+      "unit": "GB"
+    }
+  }
+]
